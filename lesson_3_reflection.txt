@@ -1,4 +1,5 @@
-git repository VS. directory >
+git repository VS. directory > 
+
 	gr's have a hidden file ".git" that stores the metadata of the repository, like commits, changes, etc.
 
 
@@ -10,6 +11,7 @@ What happens when you initialize a repository? Why do you need to do it?
 	by initializing a repository, you turn it into a git repository which is capable of version-control
 
 new git commands >
+
 	git init - to initialize a empty repository into git 
 	git add - to add files to the staging area before a commit
 	git status - to check the status of the current git repository 
@@ -19,7 +21,33 @@ new git commands >
 	working directory - is the the current directory, differs from the empty git repository 
 	
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-	the staging area is a pre-emptive step to commiting to the repository, it allows one to selective pick which files to batch
+	
+the staging area is a pre-emptive step to commiting to the repository, it allows one to selective pick which files to batch
 	and commit together as a logical commit rather than commiting all files at once
 	this also allow you to provide the discription with each commit from the get go, to avoid any confusion in the future
 	the working 
+
+How can you use the staging area to make sure you have one commit per logical change?
+	you can then use get status to see the added files in the staging area, and 
+	further use git diff -staged to find the difference between the staged file and the repositry file 
+	before making a final commit
+	
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	mainly during a point in time while working on the master branch, you realize you may want to try getting something done differently 
+	further to maybe work on functions seperately and then eventually merge the branches to the master 
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+
+terms learnt >
+	branching
+	mergeing
+	master
+	parent
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+
