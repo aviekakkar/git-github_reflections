@@ -1,0 +1,5 @@
+git commands learnt:
+	git diff - compare two commits, showing with lines have been removed and added between two commits 
+	git clone - copy an entire git repository, including history etc to your local computer 
+	git checkout - temporarily reset all files in the repository, to their state at the time of a specific commit
+	git log - shows the history of all the commits to a particular repository, starting with the most recent
