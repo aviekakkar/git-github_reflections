@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    By using diff I could clearly trace the how the two files differed from each other.
+    By doing so, it vastly saved time for me, that otherwise i would have spent manually comparing
+    the two versions I had.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By having such a file history I wouldn't need to worry about loosing valuable work
+    that i may be changing and loose if i save the new file.
+    This would also much is easy to debug a program that was earlier working but suddenly
+    now isn't.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+      you have control over the process
+      you can commit once a substantial logical element is complete, rather than having
+      un related commits
+      non-interupted code commited manually, while automatic commits can do so even when youre
+      between a function or some sort of logic which isnt finished yet
+
+    Cons:
+      its not always crystal clear when a commit is made
+      you could over extended a required commit as its all based on judgement
+      due to 2, each engineer will have a different approach to commits
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because sometimes coding repositories can consist of multiple files that are interlinked
+    as compared to other rich text files
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows the log of all the commits that have been made to a repository
+    git diff 1stID 2ndID shows the difference/changes between the two commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Knowing that by using 'git checkout commit ID' I can always go back to my previous commit head
+    and re-obtain my previous unbroken version
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to use git for (among many things), keep track of my project progress and branch out my repository at the interesting design decisions regarding my project
+    at the interesting positions where i see fit in order to explore and experiment further in differnt branches to the same repository 
