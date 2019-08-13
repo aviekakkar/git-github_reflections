@@ -1,0 +1,10 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  - while working from an unfimiliar computer
+  - while working on a collaborative project with others
+
+new terms>
+  GitHub - built on top of git, to collborate and create remote depositories
+   git push - syncronize remote with local repo
+   git pull - syncronize local repo with remote
+   remote - repository stored on the GitHub servers for remote access
