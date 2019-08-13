@@ -4,7 +4,11 @@ When would you want to use a remote repository rather than keeping all your work
   - while working on a collaborative project with others
 
 new terms>
-  GitHub - built on top of git, to collborate and create remote depositories
+  GitHub - a service that helps users interact with git using a GUI - built on top of git, to collborate and create remote depositories
    git push - syncronize remote with local repo
    git pull - syncronize local repo with remote
    remote - repository stored on the GitHub servers for remote access
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+   Similar to manually Vs. automatic commits - to avoid conflicts and repo alternations while working
