@@ -3,12 +3,27 @@ When would you want to use a remote repository rather than keeping all your work
   - while working from an unfimiliar computer
   - while working on a collaborative project with others
 
+
 new terms>
   GitHub - a service that helps users interact with git using a GUI - built on top of git, to collborate and create remote depositories
    git push - syncronize remote with local repo
    git pull - syncronize local repo with remote
    remote - repository stored on the GitHub servers for remote access
 
+
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
    Similar to manually Vs. automatic commits - to avoid conflicts and repo alternations while working
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+   forks: feature on GitHub that allows you to essentially link-clone another public repository to your GitHub
+   clones: copies of origin repos, can be locally, remote - local, but not limited to GitHub
+   branches: different repos connected to a single non-linear starting master branch that may or may not eventually merge
+
+   Useage
+	forks when wanting to give credit to the original piece of work, and develop on it or for it 
+	clones when wanting to make a copy of another repo - any repo (local, remote)
+	branches when wanting to work on two version/types starting from a single comman point
+
