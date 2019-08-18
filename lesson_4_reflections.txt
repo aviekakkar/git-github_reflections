@@ -13,7 +13,7 @@ new terms>
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-   Similar to manually Vs. automatic commits - to avoid conflicts and repo alternations while working
+   Similar to manually Vs. automatic commits - to avoid conflicts and repo alterations while working
 
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
@@ -23,11 +23,22 @@ Describe the differences between forks, clones, and branches. When would you use
    branches: different repos connected to a single non-linear starting master branch that may or may not eventually merge
 
    Useage
-	forks when wanting to give credit to the original piece of work, and develop on it or for it 
+	forks when wanting to give credit to the original piece of work, and develop on it or for it
 	clones when wanting to make a copy of another repo - any repo (local, remote)
-	branches when wanting to work on two version/types starting from a single comman point
+	branches when wanting to work on two version/types starting from a single common point
 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
+  the benefit of having a copy of the last known state of the remote stored locally is that doing so
+  will allow me to access the files even when i am offline.
+  One should do so when for example, one is going to be flying but will not have access to internet and would want to continue working
+  Further, even if i dont want to merge at that very moment, I can alway check if there will be any conflicts (while i am still offline)
+  and resolve them before initiating a pull request once i have internet.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  With using Git or GitHub, collaboration would probably be a mess.
+  Especially for software projects, as this would induce a lot of duplication of work(due to out-of-sync workspaces),
+  major conflicts at the end of the project, due to the inability to merge commit on a per commit basis. This would lead projects to eventually
+  take more time resolving conflicts and debugging than actually collaborating and writing software
 
+  
