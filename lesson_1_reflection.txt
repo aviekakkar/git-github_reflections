@@ -8,7 +8,7 @@ was introduced?
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    By having such a file history I wouldn't need to worry about loosing valuable work
+    By having a file history I wouldn't need to worry about loosing valuable work
     that i may be changing and loose if i save the new file.
     This would also much is easy to debug a program that was earlier working but suddenly
     now isn't.
