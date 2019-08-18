@@ -41,4 +41,19 @@ How would you collaborate without using Git or GitHub? What would be easier, and
   major conflicts at the end of the project, due to the inability to merge commit on a per commit basis. This would lead projects to eventually
   take more time resolving conflicts and debugging than actually collaborating and writing software
 
-  
+new terms>
+  fork: refers to the the "cloning" of a repo on GitHub itself and only that
+
+  fetch: the function of calling git to fetch the remote upstream repo and update the local repo tracking
+
+  pull request: a request from collaborator#1 to collaborator#2 to check the changes collaborator#1 has made and then merge them into master
+    - this is done mainly when collaborating, in order to avoid changes to the master being made without notifying others involved
+
+  fast-forward merge: is the process of merging two branches when they are linear in their path, and thus have no conflicts
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  Separate branch would be needed when im working on something that is built on top of the master, to avoid breaking the master incase i get it wrong(which 10/10 i will)
+  Never work directly with the master when working in a large group
+  You can work directly on the master when working alone, or with just 1 or 2 people, but as soon as the group gets larger, we need to start branching out to get feedback,
+  and avoid breaking the master
